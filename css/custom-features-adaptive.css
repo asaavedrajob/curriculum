@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+  .as-cols-separator > div[class*="col-"] {
+    margin-bottom: 50px;
+  }
+  .as-cols-separator > div[class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+  .as-cols-separator > div[class*="col-"] {
+    border-right: none;
+  }
+}

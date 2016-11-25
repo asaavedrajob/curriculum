@@ -1,0 +1,66 @@
+/* HTML default styles */
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/* My custom styles */
+.as-red {
+  color: #D15E5E;
+}
+
+.as-skinny-head {
+  font-weight: 300;
+}
+
+.as-cols-separator > div[class*="col-"] {
+  border-right: 2px solid #d4dbe0;
+}
+.as-cols-separator > div[class*="col-"]:last-child {
+  border-right: 0;
+}
+
+
+.as-col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+
+.as-row-backbordered {
+  position: relative;  
+}
+.as-row-backbordered:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 25%;
+  left: 30px;
+  right: 30px;
+  height: 2px;
+  background-color: #dcdfe4;
+}
+.as-row-backbordered > div[class*="col-"] {
+  background-color: #FFFFFF;
+}
+
+
+.as-lg-space {
+  margin-bottom: 70px;
+}
+.as-md-space {
+  margin-bottom: 50px;
+}
+.as-sm-space {
+  margin-bottom: 30px;
+}
+
+
+.as-plain-table {
+  border: none;
+}
+.as-plain-table table > tbody > tr > td {
+  border: none;
+}
