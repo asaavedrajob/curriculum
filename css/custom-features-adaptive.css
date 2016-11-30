@@ -9,3 +9,10 @@
     border-right: none;
   }
 }
+
+
+@media (max-width: 768px) {
+  .as-main-container {
+    width: 90%;
+  }
+}

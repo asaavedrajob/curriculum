@@ -1,19 +1,34 @@
 /* HTML default styles */
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background-image: url("/images/body_bkg.png");
+  background-repeat: repeat;
 }
 
 
 /* My custom styles */
+.as-main-container {
+  padding: 20px 25px;
+  margin-bottom: 25px;
+  background-color: #FFFFFF;
+}
+
+
+.as-box-shadow-50deg {
+  -webkit-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow:    5px 5px 25px 0px rgba(0, 0, 0, 0.7);
+  box-shadow:         5px 5px 25px 0px rgba(0, 0, 0, 0.7);
+}
+
 .as-red {
   color: #D15E5E;
 }
 
+
 .as-skinny-head {
   font-weight: 300;
 }
+
 
 .as-cols-separator > div[class*="col-"] {
   border-right: 2px solid #d4dbe0;
@@ -63,4 +78,9 @@ body {
 }
 .as-plain-table table > tbody > tr > td {
   border: none;
+}
+
+
+.as-no-margin-top {
+  margin-top: 0;
 }
