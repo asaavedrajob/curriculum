@@ -1,7 +1,7 @@
 /* HTML default styles */
 
 body {
-  background-image: url("/images/body_bkg.png");
+  background-image: url("images/body_bkg.png");
   background-repeat: repeat;
 }
 
